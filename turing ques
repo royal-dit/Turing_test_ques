@@ -1,0 +1,97 @@
+
+# class hello:
+#     def __init__(self,a='welcome to'):
+#         self.a = a
+#     def welcome(self,x):
+#         print(self.a+x)
+# h=hello()
+# h.welcome('turing')
+
+# def func1():
+#     x = 50
+#     return x
+# func1()
+# print(x)
+
+# print([i.lower() for i in 'TURING'])
+# class Welcome:
+#     def __init__(self,name):
+#         self.name = name
+#     def say_hello(self):
+#         print('welcome to ',self.name)
+# cw = Welcome('Turing')
+# cw.say_hello()
+
+# l1=[1,2,3,4]
+# l2=[5,6,7]
+# l1.append((l2))
+# print("Welcome to TURING".capitalize())
+
+# def f(x,l=[]):
+#     for i in range(x):
+#         l.append(i*i)
+#     print(l)
+# f(2)
+# f(3,[3,2,1])
+# f(3)
+
+
+# f = None
+# for i in range(5):
+#     with open("app.long","w") as f:
+#         if i > 2:
+#             break
+# print(f.closed)
+
+# import re
+# result = re.findall('welcome to Turing','welcome',1)
+# print(result)
+#
+# a = [1,2,3,4]
+# b = [sum(a[0:x+1]) for x in range(0,len(a))]
+# print(b)
+
+# d = {
+#     45:"aa"
+# }
+# print(d)
+# alphabets = 'abcd'
+# for i in range(len(alphabets)):
+#     alphabets[i].upper()
+# print(alphabets)
+
+
+# l = [1,2,3,4,5]
+# m = map(lambda  x: 2 **x,l)
+# print(list(m))
+
+# input = ['node','react','vue']
+# print(input)
+# for i in input:
+#     input.append((i.upper()))
+# print(input)
+
+# a1= [1,2,3,4,5]
+# a2 = a1
+# a2[0]=0
+# print(a1)
+# s = ['a','b','c','d']
+# s.insert(3,'e')
+# print(s)
+
+# data = [1,2,3]
+# def incr(x):
+#     return x+1
+# print(list(map(incr,data)))
+
+# z = set('abc')
+# z.add('san')
+# z.update(set(['p','q']))
+# print(z)
+
+# y = [2,5j,6]
+# y.sort()
+# print(y)
+# print(2**(3**2),(2**3)**2,(2**3)**3)
+
+
